@@ -2,16 +2,23 @@ import java.util.Scanner;
 
 public class Ques6 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
-        int rev = 0;
+        Scanner input = new Scanner(System.in);
 
-        while (n != 0) {
-            rev = rev * 10 + n % 10;
-            n = n / 10;
-        }
+        double total = 0.0;
+        double userEnteredValue;
 
-        System.out.println("Reversed number is: " + rev);
+        do {
+            System.out.print("Enter a double value (enter 0 to stop): ");
+            userEnteredValue = input.nextDouble();
+
+            if (userEnteredValue != 0) {
+                total += userEnteredValue;
+            }
+
+        } while (userEnteredValue != 0);
+
+        System.out.println("The total sum is: " + total);
+
+        input.close();
     }
 }
