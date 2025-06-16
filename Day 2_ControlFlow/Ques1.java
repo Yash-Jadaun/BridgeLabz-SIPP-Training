@@ -25,7 +25,7 @@ public class Ques1{
 
         int n= sc.nextInt();
         int result = function(n);
-        System.out.println("The factorial of " + n + " is: " + result);
+        System.out.println("The factorial of " + n + " is: " + " "+  result);
         
     }
 }
