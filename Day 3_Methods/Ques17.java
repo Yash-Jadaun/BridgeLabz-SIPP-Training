@@ -54,7 +54,6 @@ public class Ques17 {
         System.out.println("Are points collinear (area method)? " + (area1 == 0));
 
 
-        // Non-collinear points: (2, 4), (6, 8), (3, 1)
         System.out.println("\nChecking points (2, 4), (6, 8), (3, 1):");
         boolean collinearSlope2 = arePointsCollinear(2, 4, 6, 8, 3, 1);
         System.out.println("Are points collinear (slope method)? " + collinearSlope2);
