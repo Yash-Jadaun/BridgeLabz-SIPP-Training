@@ -87,6 +87,6 @@ public class Ques20 {
 
         displayCalendar(month, year);
 
-        scanner.close();
+      
     }
 }
