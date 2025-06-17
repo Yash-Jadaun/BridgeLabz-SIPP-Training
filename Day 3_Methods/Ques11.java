@@ -37,7 +37,7 @@ public class Ques11 {
         }
     }
 
-    // Method to determine BMI status
+    
     public static String determineBMIBasedOnStatus(double bmi) {
         if (bmi < 18.5) {
             return "Underweight";
