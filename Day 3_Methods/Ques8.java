@@ -17,7 +17,7 @@ public class Ques8 {
     }
 
     public static void main(String[] args) {
-        // Example usage:
+
         System.out.println("10 km to miles: " + km2miles(10) + " miles");
         System.out.println("10 miles to km: " + miles2km(10) + " km");
         System.out.println("5 meters to feet: " + meters2feet(5) + " feet");
