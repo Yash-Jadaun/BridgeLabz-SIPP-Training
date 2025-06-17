@@ -9,7 +9,7 @@ public class Ques6 {
     public static int calculateRoundsFor5Km(double perimeterInMeters) {
         // 5 km = 5000 meters
         if (perimeterInMeters <= 0) {
-            return -1; // Indicate error or invalid input
+            return -1; 
         }
         return (int) Math.ceil(5000.0 / perimeterInMeters);
     }
