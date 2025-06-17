@@ -3,27 +3,11 @@ import java.util.Arrays;
 public class Ques10 {
 
     public static int[][] storeFriendsData(int[] ages, double[] heights) {
-        // Assuming ages and heights are for 3 friends as per the problem
-        int[][] friendsData = new int[2][3]; // Row 0 for ages, Row 1 for heights (rounded to int for simplicity if needed, otherwise use double[][])
+   
+        int[][] friendsData = new int[2][3]; 
 
-        // For this problem, storing in two separate arrays as int[] and double[] is sufficient.
-        // If the intent was a 2D array, it would likely be double[][] or a custom Friend object.
-        // Let's assume the question implies just storing the raw data for age and height.
-
-        // If you were to put them into a 2D array (e.g., for age and height as columns):
-        // This is a bit ambiguous if they expect a single 2D array for two different types.
-        // Let's clarify based on the hint: "store it in two arrays each to store the values for the age and height of the 3 friends".
-        // This means separate arrays for ages and heights.
-
-        // So, the input arrays are already what the hint asks for.
-        // The method signature "int[][]" is a bit misleading if the heights are double.
-        // I will interpret the prompt as taking age and height arrays and then finding the youngest/tallest.
-        // If a single 2D array is strictly required with mixed types, it would be complex in pure Java arrays.
-
-        // For simplicity and adhering to typical Java array usage:
-        // We will just process the input arrays.
-        // If an actual 2D array of specific types is needed, usually you'd wrap them in a custom object.
-        return null; // As per interpretation, the method might just be for processing.
+    
+        return null; 
     }
 
     public static String findYoungestFriend(int[] ages) {
