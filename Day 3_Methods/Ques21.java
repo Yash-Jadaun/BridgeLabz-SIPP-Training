@@ -4,7 +4,7 @@ import java.util.Set;
 import java.util.Arrays;
 
 public class Ques21 {
-
+// Method to generate a six-digit OTP
     public static int generateSixDigitOTP() {
         Random random = new Random();
         return random.nextInt(900000) + 100000;
