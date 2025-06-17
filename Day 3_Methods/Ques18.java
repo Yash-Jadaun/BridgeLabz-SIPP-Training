@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Ques18 {
 
-    public static boolean isPerfectNumber(int number) {
+    public static boolean isPerfectNum(int number) {
         if (number <= 1) {
             return false;
         }
