@@ -22,7 +22,7 @@ public class Ques1 {
 
     public static void main(String[] args) {
         // Example usage:
-        calculateTrigonometricFunctions(30.0); // For 30 degrees
-        calculateTrigonometricFunctions(90.0); // For 90 degrees
+        calculateTrigonometricFunctions(30.0); 
+        calculateTrigonometricFunctions(90.0); 
     }
 }
