@@ -21,7 +21,7 @@ public class Ques12 {
     }
 
     public static void main(String[] args) {
-        // Example usage:
+      
         System.out.println("10 yards to feet: " + convertYardsToFeet(10) + " feet");
         System.out.println("10 feet to yards: " + convertFeetToYards(10) + " yards");
         System.out.println("5 meters to inches: " + convertMetersToInches(5) + " inches");
