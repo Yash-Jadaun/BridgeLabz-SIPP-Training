@@ -4,7 +4,7 @@ public class Ques5 {
 
     public static int checkNumberSign(int number) {
         if (number < 0) {
-            return -1; // Negative
+            return -1; 
         } else if (number > 0) {
             return 1; // Positive
         } else {
