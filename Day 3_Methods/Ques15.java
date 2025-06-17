@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class Ques15 {
 
-    // Method to generate an array of 4-digit random numbers
+   
     public static int[] generate4DigitRandomNumbers(int size) {
         int[] randomNumbers = new int[size];
         Random random = new Random();
