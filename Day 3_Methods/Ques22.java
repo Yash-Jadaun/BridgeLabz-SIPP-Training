@@ -55,7 +55,7 @@ public class Ques22 {
 
     public static int[][] subtractMatrices(int[][] matrixA, int[][] matrixB) {
         if (matrixA == null || matrixB == null || matrixA.length == 0 || matrixB.length == 0 || matrixA[0].length == 0 || matrixB[0].length == 0) {
-            System.out.println("One or both matrices are null or empty.");
+            System.out.println("One or both matrices are null or empty");
             return null;
         }
         if (matrixA.length != matrixB.length || matrixA[0].length != matrixB[0].length) {
