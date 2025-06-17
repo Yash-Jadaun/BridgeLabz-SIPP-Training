@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Ques19 {
 
-    public static int countDigits(int number) {
+    public static int countDigit(int number) {
         if (number == 0) {
             return 1;
         }
