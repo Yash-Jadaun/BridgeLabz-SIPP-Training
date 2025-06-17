@@ -3,9 +3,7 @@ import java.util.Scanner;
 public class Ques14 {
 
     public static boolean isLeapYear(int year) {
-        // A year is a leap year if it is divisible by 4.
-        // However, if the year is divisible by 100, it is NOT a leap year,
-        // unless it is also divisible by 400.
+      
         if (year % 400 == 0) {
             return true;
         } else if (year % 100 == 0) {
