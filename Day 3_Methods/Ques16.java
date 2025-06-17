@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Ques16 {
 
-    // 1. Method to find the count of digits in the number
+    
     public static int countDigits(int number) {
         if (number == 0) {
             return 1;
