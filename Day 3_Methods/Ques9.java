@@ -45,6 +45,6 @@ public class Ques9 {
         System.out.println("Sum of factors: " + sumFactors(factors));
         System.out.println("Product of factors: " + productFactors(factors));
 
-        scanner.close();
+      
     }
 }
