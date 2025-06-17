@@ -13,7 +13,7 @@ public class Ques13 {
         }
     }
 
-    // Method to find the sum of n natural numbers using the formula n(n+1)/2
+
     public static long sumNaturalNumbersFormula(int n) {
         if (n <= 0) {
             return 0;
