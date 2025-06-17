@@ -4,7 +4,7 @@ public class Ques3 {
         // Check for division by zero
         if (divisor == 0) {
             System.out.println("Error: Division by zero is not allowed.");
-            return new int[]{0, 0}; // Return default or throw an exception
+            return new int[]{0, 0}; 
         }
 
         int quotient = number / divisor;

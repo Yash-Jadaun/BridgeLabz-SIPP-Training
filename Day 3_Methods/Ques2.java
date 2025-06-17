@@ -9,7 +9,7 @@ public class Ques2 {
     public static void main(String[] args) {
         // Example usage:
         double temp = 20.0; // Temperature in Fahrenheit
-        double windSpd = 15.0; // Wind speed in miles per hour
+        double windSpd = 15.0; 
         double chill = calculateWindChill(temp, windSpd);
         System.out.println("The wind chill temperature is: " + chill + " °F");
     }
