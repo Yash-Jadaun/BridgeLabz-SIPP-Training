@@ -22,7 +22,7 @@ public class Ques10 {
                 youngestIndex = i;
             }
         }
-        // Assuming friends are "Amar", "Akbar", "Anthony"
+       
         String[] names = {"Amar", "Akbar", "Anthony"};
         return names[youngestIndex];
     }
