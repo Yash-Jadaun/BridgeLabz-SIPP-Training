@@ -22,7 +22,7 @@ public class Ques4 {
     }
 
     public static void main(String[] args) {
-        // Example usage:
+    
         int n1 = 10, n2 = 5, n3 = 20;
         int[] result = findSmallestAndLargest(n1, n2, n3);
         System.out.println("Numbers: " + n1 + ", " + n2 + ", " + n3);
