@@ -5,7 +5,7 @@ public class Ques7 {
         if (month == 3) {
             return day >= 20 && day <= 31;
         } else if (month == 4 || month == 5) {
-            return day >= 1 && day <= 31; // Assuming all days are valid for these months
+            return day >= 1 && day <= 31; 
         } else if (month == 6) {
             return day >= 1 && day <= 20;
         } else {
