@@ -9,7 +9,7 @@ class Ques7 {
         int index = scanner.nextInt();
 
         try {
-            char character = inputString.charAt(index); // Accessing an invalid index
+            char character = inputString.charAt(index); 
             System.out.println("Character at index " + index + ": " + character);
         } catch (StringIndexOutOfBoundsException e) {
             System.out.println("StringIndexOutOfBoundsException caught.");
