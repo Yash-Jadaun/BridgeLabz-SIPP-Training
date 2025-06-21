@@ -1,4 +1,4 @@
-class Ques2 {
+ class Ques2 {
     public static void main(String[] args) {
         String str = null;
         try {
