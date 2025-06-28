@@ -1,5 +1,5 @@
 class BankAccount {
-    static String bankName = "ABC Bank";
+    static String bankName = "HDFC Bank";
     static int totalAccounts = 0;
 
     final int accountNumber;
@@ -12,12 +12,24 @@ class BankAccount {
     }
 
     static void getTotalAccounts() {
-        System.out.println("Total accounts: " + totalAccounts);
+        System.out.println("Total Accounts: " + totalAccounts);
     }
 
-    void display() {
+    void displayAccountDetails() {
         if (this instanceof BankAccount) {
-            System.out.println("Account Holder: " + accountHolderName + ", Account Number: " + accountNumber);
+            System.out.println("Bank: " + bankName);
+            System.out.println("Account Holder: " + accountHolderName);
+            System.out.println("Account Number: " + accountNumber);
         }
+    }
+
+    public static void main(String[] args) {
+        BankAccount acc1 = new BankAccount("Yash", 1001);
+        BankAccount acc2 = new BankAccount("Shivani", 1002);
+
+        acc1.displayAccountDetails();
+        acc2.displayAccountDetails();
+
+        BankAccount.getTotalAccounts();
     }
 }
