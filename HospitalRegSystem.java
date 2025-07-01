@@ -26,7 +26,7 @@ class Patient {
             System.out.println("Name: " + name);
             System.out.println("Patient ID: " + patientID);
             System.out.println("Age: " + age);
-            System.out.println("Ailment: " + ailment);
+            System.out.println("Ailment: " + ailment);//
             System.out.println("Hospital: " + hospitalName);
         }
     }
