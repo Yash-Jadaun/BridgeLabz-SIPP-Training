@@ -8,7 +8,7 @@ class BankAccount {
 
     BankAccount(String accountHolderName, int accountNumber) {
         this.accountHolderName = accountHolderName;
-        this.accountNumber = accountNumber;
+        this.accountNumber = accountNumber;//
         totalAccounts++;
     }
 
