@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.this_static_final_keyword_and_instance_of_operator;
 
 class Employee {
     static String companyName = "TechCorp";
