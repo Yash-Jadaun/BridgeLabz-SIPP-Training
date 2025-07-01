@@ -1,3 +1,4 @@
+package OOPS;
 class BankAccount {
     static String bankName = "HDFC Bank";
     static int totalAccounts = 0;
