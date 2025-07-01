@@ -31,7 +31,7 @@ class Book {
         Book b1 = new Book("Atomic Habits", "James Clear", "9780735211292");
         Book b2 = new Book("Rich Dad Poor Dad", "Robert Kiyosaki", "9781612680194");
 
-        b1.displayBookDetails();
+        b1.displayBookDetails(); //
         b2.displayBookDetails();
     }
 }
