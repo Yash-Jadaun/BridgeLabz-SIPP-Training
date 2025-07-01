@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.this_static_final_keyword_and_instance_of_operator;
 
 class Vehicle {
     static double registrationFee = 1500.00;
