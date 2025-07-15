@@ -1,4 +1,4 @@
-package DataStructure.LinearandBinarySearch;
+package DataStructure.LinearandBinarySearch.StringBuilder;
 
 import java.util.HashSet;
 
