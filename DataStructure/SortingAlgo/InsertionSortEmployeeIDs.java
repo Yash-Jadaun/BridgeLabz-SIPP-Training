@@ -1,4 +1,4 @@
-package DataStructure.SortingAlgo.BubbleSort;
+package DataStructure.SortingAlgo;
 
 public class InsertionSortEmployeeIDs {
     public static void main(String[] args) {
