@@ -1,4 +1,4 @@
-package DataStructure.SortingAlgo;
+package DataStructure.SortingAlgo.BubbleSort;
 
 import java.util.Arrays;
 
